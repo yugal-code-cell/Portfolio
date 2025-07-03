@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* ----------- HEADER / NAVBAR ----------- */
+.navbar {
+  background-color: #002244;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+.nav-logo {
+  height: 70px;
+  width: 90px;
+}
+
+.logo {
+  background-image: url("first_image.png");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 10px;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #FFD700;
+}
+
+.home-icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* ----------- SECTION ----------- */
+section {
+  background-color: #f4f4f4;
+  background-image: url("sec_image.avif");
+  background-size: cover;
+  background-position: center;
+  padding: 40px 20px;
+  min-height: 100vh;
+}
+
+.contant {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.box1,
+.box2 {
+  background-color: rgba(0, 34, 68, 0.9);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.box1 h2,
+.box2 h2 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #FFD700;
+}
+
+.Courses,
+.gallery {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.contant a {
+  font-size: 1rem;
+  color: #FFD700;
+  text-decoration: underline;
+}
+
+/* ----------- FOOTER ----------- */
+footer {
+  background-color: #002244;
+  color: white;
+  padding: 40px 20px 10px;
+}
+
+.footpanel1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.footpanel1 ul {
+  list-style: none;
+}
+
+.footpanel1 p {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #FFD700;
+}
+
+.footpanel1 a {
+  display: block;
+  margin-bottom: 8px;
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+.footpanel1 a:hover {
+  color: white;
+}
+
+.logo1 {
+  background-image: url("first_image.png");
+  background-size: cover;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Bottom copyright */
+.footpanel2 {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #ccc;
+  padding-top: 10px;
+  border-top: 1px solid #444;
+}
+
+/* ----------- RESPONSIVE ----------- */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+}
