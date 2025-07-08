@@ -1,6 +1,6 @@
 /* hero section styling */
 nav {
-  color: #299bd9;
+  color: #a6b0b6;
 }
 ul {
   display: flex;
@@ -16,7 +16,7 @@ ul {
 
 nav a {
   text-decoration: none;
-  color: #1daad8;
+  color: #aab6ba;
   padding: 0;
   margin: 0;
   display: flex;
@@ -30,8 +30,8 @@ nav a {
   justify-content: space-between;
   align-items: center;
   padding: 50px 10%;
-  background-color: #0d0d0d;
-  color: #107db8;
+  background-color: #456882;
+  color: #d8dbdd;
 }
 
 .hero-content {
@@ -45,7 +45,7 @@ nav a {
 
 .hero-content h1 {
   font-size: 48px;
-  color: #0d84ce;
+  color: #e8d0c0;
   margin-bottom: 10px;
 }
 
@@ -55,7 +55,7 @@ nav a {
 }
 
 .hero-content h3 span {
-  color: #27c2ec;
+  color: #D2C1B6;
 }
 
 .hero-content p {
@@ -66,8 +66,8 @@ nav a {
 .hero-content .btn {
   display: inline-block;
   padding: 10px 20px;
-  background: #00ffff;
-  color: #000000;
+  background: #6edada;
+  color: #1a0808;
   border-radius: 5px;
   text-decoration: none;
 }
@@ -78,13 +78,14 @@ nav a {
 }
 
 .social-icons a {
-  color: #fff;
+  color: #bc5656;
   margin-right: 10px;
   font-size: 20px;
-  width: 25px;
+  width: 20px;
   display: inline-block;
-  background-color: #0d0d0d;
+  background-color: #456882;
   align-self: start;
+  border-radius: 20%;
 }
 
 .fa-brands {
@@ -129,12 +130,12 @@ nav a {
   border-radius: 65%;
   transform: scale(1.05); /* Slightly bigger on hover */
   box-shadow: 0 0px 20px rgba(30, 175, 204, 0.5); /* Shadow on hover */
-  background-color: #066a85;
+  background-color: #b0b0b0;
 }
 
 footer {
-  background-color: #0d0d0d;
-  color: #107db8;
+  background-color: #1B3C53;
+  color: #000000;
   text-align: center;
   padding: 20px;
 }
