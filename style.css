@@ -103,16 +103,18 @@ nav a:hover {
 .social-icons a {
   color: #bc5656;
   margin-right: 10px;
-  font-size: 20px;
-  width: 20px;
-  display: inline-block;
+  font-size: 24px;
+  width: 41px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   background-color: #456882;
   align-self: start;
   border-radius: 20%;
 }
 
 .fa-brands, .fa-solid {
-  color: #121515;
+  color: inherit;
   gap: 28px;
   margin: 0.5rem;
   width: 45px;
