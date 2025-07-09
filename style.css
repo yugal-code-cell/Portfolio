@@ -42,6 +42,12 @@ nav a {
   gap: 20px;
 }
 
+nav a:hover {
+  color: #1daad8;
+  text-decoration: underline;
+  transform: scale(1.03); /* Slightly bigger on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
 .hero {
   display: flex;
   justify-content: space-between;
@@ -105,8 +111,12 @@ nav a {
   border-radius: 20%;
 }
 
-.fa-brands {
+.fa-brands, .fa-solid {
   color: #121515;
+  gap: 28px;
+  margin: 0.5rem;
+  width: 45px;
+  font-size: 25px;
 }
 .hero-content .social-icons a:hover {
   color: #1daad8;
@@ -364,98 +374,13 @@ p.subtitle {
   color: #6c757d;
 }
 
-form {
-  max-width: 600px;
-  margin: 0 auto; /* Center the form */
-  padding: 70px;
-  display: grid;
-  margin-left: 270px;
-  gap: 30px;
-  grid-template-columns: repeat(2, 1fr);
-  flex-direction: column;
-}
-
-.form-row {
-  display: flex;
-  gap: 20px;
-}
-
-.form-row .form-group {
-  flex: 1;
-}
-
-label {
-  margin-bottom: 6px;
-  font-weight: 500;
-}
-
-input,
-textarea {
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  font-size: 15px;
-  outline: none;
-  transition: border-color 0.3s ease;
-}
-
-input:focus,
-textarea:focus {
-  border-color: #007bff;
-}
-
-input:invalid:focus,
-textarea:invalid:focus {
-  border-color: #dc3545;
-}
-
-.error-message {
-  color: #dc3545;
-  font-size: 13px;
-  margin-top: 4px;
-  display: none;
-}
-
-input:invalid:focus ~ .error-message,
-textarea:invalid:focus ~ .error-message {
-  display: block;
-}
-
-textarea {
-  min-height: 100px;
-  resize: vertical;
-}
-
-form-group{
-   padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  font-size: 15px;
-  outline: none;
-  transition: border-color 0.3s ease;
-}
-button {
-  background: #1b3c53;
-  color: white;
-  padding: 14px;
-  font-size: 16px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
 
 @media (max-width: 600px) {
-  .form-row {
+  .container {
     flex-direction: column;
   }
 }
-button:hover {
-  background-color: #2f999e;
-  text-decoration: underline;
-  transform: scale(1.03); /* Slightly bigger on hover */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
-}
+
 
 
 /* mobile responsive  */
@@ -520,10 +445,9 @@ button:hover {
     width: 90%;
   }
 
-  form {
-    padding: 20px;
-    margin-left: 0;
-    grid-template-columns: 1fr;
+  .hero-image img {
+    width: 100%;
+    height: auto;
   }
 
   h2 {
